@@ -20,7 +20,7 @@ class ConfigForm:
             return config_dict
         else:
             showinfo("WARNING", message="You have to config first.")
-            return
+            return False
 
     def __init__(self):
         # Windows meta

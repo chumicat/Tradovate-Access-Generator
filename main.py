@@ -17,7 +17,8 @@ last_account_info = 'last_account_info.txt'
 
 def register_account():
     # Dump config
-    config_dict = configform.ConfigForm.load_config()
+    if not (config_dict := configform.ConfigForm.load_config()):
+        return
     print(config_dict)
 
     # Disable pop out ads / screen
