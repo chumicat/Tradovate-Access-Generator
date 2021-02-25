@@ -7,7 +7,8 @@
 每次執行時會自動添加不同的後綴讓系統辨識為不同信箱，但我們皆可以在單一信箱收信。
 帳號名稱也會依照計數器自動添加
 ## 環境
-windows + python
+windows + python  
+[安裝 Python 可以參考這篇文章](https://www.notion.so/Python-943f9215e25943d8bce216cf1c3c8816)
 ## 使用
 ### 執行程序
 1. 雙擊 activate.bat 執行
